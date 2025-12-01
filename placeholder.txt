@@ -5,8 +5,8 @@ const part1 = (input: string) => {};
 const part2 = (input: string) => {};
 
 const main = () => {
-    run(part1, "example.txt");
-    run(part2, "example.txt");
+    run(part1, "example.txt", import.meta.url);
+    run(part2, "example.txt", import.meta.url);
 };
 
 main();
