@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export const run = (runner, input) => {
+export const run = (runner: (file: string) => void, input: string) => {
   const file = fs.readFileSync(input, 'utf-8').trim();
 
   const startTime = Date.now();

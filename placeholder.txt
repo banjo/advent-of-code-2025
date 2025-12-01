@@ -1,8 +1,8 @@
 import { run } from "../common.js";
 
-const part1 = (input) => { };
+const part1 = (input: string) => { };
 
-const part2 = (input) => { };
+const part2 = (input: string) => { };
 
 const main = () => {
   run(part1, "example.txt");
